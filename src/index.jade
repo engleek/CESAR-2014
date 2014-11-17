@@ -1,0 +1,123 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='description', content='Catégorisation par objectifs de la visualisation pour la sécurité')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    
+    title Catégorisation par objectifs de la visualisation pour la sécurité
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  style.
+    .dandelion {
+      background-image: url('images/dandelion.png')
+    }
+    
+    li::before {
+      content: '';
+      margin-right: none;
+    }
+    
+    p {
+      margin-bottom: 6px;
+    }
+    
+    .docref {
+      
+    }
+
+  body
+
+    article
+
+      section
+        h1 Bonjour
+
+      section(data-bespoke-backdrop='dandelion')
+        h1 Catégorisation par objectifs de la visualisation pour la sécurité
+
+      section
+        h2 Christopher Humphries
+        br
+        ul
+          li Doctorant INRIA à Rennes
+          li Équipe CIDre à Supélec
+          li Financé par la DGA-MI
+      
+      section
+        h2.bullet CIDRE
+        h3 Équipe de sécurité
+        br
+        ul
+          li Détection d'Intrusions
+          li Réseaux Ad Hoc
+          li Vie Privée
+      
+      section
+        h2 Pourquoi visualiser?
+      
+      section
+        h2.bullet En général
+        h3 Pour nous même
+        ul
+          li Trouver un sens aux données
+          li Comprendre l'idée globale
+          li Retrouver le contrôle
+      
+      section
+        h2.bullet En sécurité
+        h3 Pour combler un fossé
+        ul
+          li L'analyse manuelle c'est lent
+          li L'analyse automatique c'est bête
+      
+      //section
+        //h2.bullet Cependant…
+        //h3 Il faut être expérimenté!
+        //ul
+          //li En statistiques
+          //li En design
+          //li En psychologie
+            
+      //section.emphatic-text(data-bespoke-backdrop='emphatic')
+        //h2.bullet Pour construire
+        //h3.bullet mais aussi pour choisir…
+      
+      section.emphatic-text(data-bespoke-backdrop='emphatic')
+        h2 Visualizer
+        br
+        p Construire des représentations de données et une interface pour ces données.
+      
+      section
+        h2 VIS SENSE
+        p
+          a(href='www.vis-sense.eu') www.vis-sense.eu
+      
+      section.docref
+        p 140 pages
+        p 250 références
+      
+      section
+        h2 VIZSEC
+        h3 Est. 2004
+      
+      section
+        h2 Topologie
+        br
+        ul
+          li Surveillance
+          li Analyse
+          li Rapport
+      
+      section
+        h2 Surveillance
+      
+      section
+        h2 MERCI
+        br
+        p
+          a(href='http://engleek.github.io/CESAR-2014/') http://engleek.github.io/CESAR-2014/
+        
+        
+    script(src='build/build.js')
