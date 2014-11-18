@@ -23,6 +23,12 @@ html
       margin-bottom: 6px;
     }
     
+    img {
+      max-height: 480px;
+      max-width: 800px;
+      margin: 30px
+    }
+    
     .docref {
       
     }
@@ -95,15 +101,19 @@ html
           a(href='www.vis-sense.eu') www.vis-sense.eu
       
       section.docref
-        p 140 pages
-        p 250 références
+        h6.bullet Vis Sense
+        h2 Analysis of Current Practices
+        br
+        ul 
+          li 140 pages
+          li 250 références
       
       section
         h2 VIZSEC
         h3 Est. 2004
       
       section
-        h2 Topologie
+        h2.bullet Topologie
         br
         ul
           li Surveillance
@@ -111,13 +121,82 @@ html
           li Rapport
       
       section
-        h2 Surveillance
+        h6 visualization pour
+        h2.bullet Surveiller
+        br
+        ul
+          li Corrélation Rapide
+          li Décision Rapide
+          li Passage à l'échelle
       
       section
-        h2 MERCI
+        img(src='images/PortVis.png')
+
+      section
+        img(src='images/VisualMotifs.png')
+        
+      section
+        img(src='images/testbedyu.png')
+      
+      section
+        img(src='images/NIMBLE.png')
+
+      section
+        h6 visualization pour
+        h2.bullet Analyser
         br
-        p
-          a(href='http://engleek.github.io/CESAR-2014/') http://engleek.github.io/CESAR-2014/
+        ul
+          li Cycles de recherche
+          li Reconstruction narrative
+      
+      section
+        img(src='images/tnv.png')
+
+      section
+        img(src='images/burn2.jpg')
+
+      section
+        img(src='images/burn3.jpg')
+
+      section
+        img(src='images/burn4.jpg')
+
+      section
+        img(src='images/burn5.jpg')
+
+      section
+        h6 visualization pour
+        h2.bullet Rapporter
+        br
+        ul
+          li Narration
+      
+      section
+        img(src='images/flowtag.png')
+      
+      section
+        h2.bullet ELVis
+        br
+        ul
+          li Parse les logs
+          li Utilisation de sémantique de sécurité
+          li Exploration assistée par la selection et l'appariement de visualisations
+
+      section
+        h2.bullet CORGI
+        br
+        ul
+          li Parse les logs
+          li Fort héritage de 
+            strong ELVis
+          li Exploration of de multiples sources de données
+          li Collecte de valeurs d'intérêt
+          li Liaison de sources de données
+      
+      section
+        h1 MERCI
+        br
+        a(href='http://engleek.github.io/CESAR-2014/') http://engleek.github.io/CESAR-2014/
         
         
     script(src='build/build.js')
