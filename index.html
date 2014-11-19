@@ -27,8 +27,15 @@
       margin: 30px
     }
     
-    .docref {
+    .docref .thumb {
+      float: left;
+      width: 210px;
+      height: 297px;
+    }
     
+    .docref .meta {
+      margin-left: 300px;
+      margin-top: 50px
     }
     
   </style>
@@ -52,9 +59,9 @@
         <h2 class="bullet">CIDRE</h2>
         <h3>Équipe de sécurité</h3><br>
         <ul>
-          <li>Détection d'Intrusions</li>
-          <li>Réseaux Ad Hoc</li>
-          <li>Vie Privée</li>
+          <li class="bullet">Détection d'Intrusions</li>
+          <li class="bullet">Réseaux Ad Hoc</li>
+          <li class="bullet">Vie Privée</li>
         </ul>
       </section>
       <section>
@@ -64,17 +71,17 @@
         <h2 class="bullet">En général</h2>
         <h3>Pour nous même</h3>
         <ul>
-          <li>Trouver un sens aux données</li>
-          <li>Comprendre l'idée globale</li>
-          <li>Retrouver le contrôle</li>
+          <li class="bullet">Trouver un sens aux données</li>
+          <li class="bullet">Comprendre l'idée globale</li>
+          <li class="bullet">Retrouver le contrôle</li>
         </ul>
       </section>
       <section>
         <h2 class="bullet">En sécurité</h2>
         <h3>Pour combler un fossé</h3>
         <ul>
-          <li>L'analyse manuelle c'est lent</li>
-          <li>L'analyse automatique c'est bête</li>
+          <li class="bullet">L'analyse manuelle c'est lent</li>
+          <li class="bullet">L'analyse automatique c'est bête</li>
         </ul>
       </section>
       <!--section
@@ -92,40 +99,24 @@
       
       -->
       <section data-bespoke-backdrop="emphatic" class="emphatic-text">
-        <h2>Visualizer</h2><br>
-        <p>Construire des représentations de données et une interface pour ces données.</p>
-      </section>
-      <section>
-        <h2>VIS SENSE</h2>
-        <p><a href="www.vis-sense.eu">www.vis-sense.eu</a></p>
-      </section>
-      <section class="docref">
-        <h6 class="bullet">Vis Sense</h6>
-        <h2>Analysis of Current Practices</h2><br>
-        <ul>
-          <li>120 pages</li>
-          <li>333 références</li>
-        </ul>
-      </section>
-      <section>
-        <h2>VIZSEC</h2>
-        <h3>Est. 2004</h3>
+        <h2>Visualiser</h2><br>
+        <p>Construire des interfaces vers des données.</p>
       </section>
       <section>
         <h2 class="bullet">Topologie</h2><br>
         <ul>
-          <li>Surveillance</li>
-          <li>Analyse</li>
-          <li>Rapport</li>
+          <li class="bullet">Surveillance</li>
+          <li class="bullet">Analyse</li>
+          <li class="bullet">Rapport</li>
         </ul>
       </section>
       <section>
-        <h6>visualization pour</h6>
+        <h6>visualisation pour</h6>
         <h2 class="bullet">Surveiller</h2><br>
         <ul>
-          <li>Corrélation Rapide</li>
-          <li>Décision Rapide</li>
-          <li>Passage à l'échelle</li>
+          <li class="bullet">Corrélation Rapide</li>
+          <li class="bullet">Décision Rapide</li>
+          <li class="bullet">Passage à l'échelle</li>
         </ul>
       </section>
       <section><img src="images/PortVis.png"></section>
@@ -133,11 +124,11 @@
       <section><img src="images/testbedyu.png"></section>
       <section><img src="images/NIMBLE.png"></section>
       <section>
-        <h6>visualization pour</h6>
+        <h6>visualisation pour</h6>
         <h2 class="bullet">Analyser</h2><br>
         <ul>
-          <li>Cycles de recherche</li>
-          <li>Reconstruction narrative</li>
+          <li class="bullet">Cycles de recherche</li>
+          <li class="bullet">Reconstruction narrative</li>
         </ul>
       </section>
       <section><img src="images/tnv.png"></section>
@@ -146,30 +137,51 @@
       <section><img src="images/burn4.jpg"></section>
       <section><img src="images/burn5.jpg"></section>
       <section>
-        <h6>visualization pour</h6>
+        <h6>visualisation pour</h6>
         <h2 class="bullet">Rapporter</h2><br>
         <ul>
-          <li>Narration</li>
+          <li class="bullet">Communication</li>
+          <li class="bullet">Narration</li>
         </ul>
       </section>
       <section><img src="images/flowtag.png"></section>
+      <!--section
+      //h2.bullet ELVis
+      //br
+      //ul
+        //li Parse les logs
+        //li Utilisation de sémantique de sécurité
+        //li Exploration assistée par la selection et l'appariement de visualisations
+        
+      -->
+      <!--section
+      //h2.bullet CORGI
+      //br
+      //ul
+        //li Parse les logs
+        //li Fort héritage de 
+          //strong ELVis
+        //li Exploration of de multiples sources de données
+        //li Collecte de valeurs d'intérêt
+        //li Liaison de sources de données
+        
+      -->
       <section>
-        <h2 class="bullet">ELVis</h2><br>
-        <ul>
-          <li>Parse les logs</li>
-          <li>Utilisation de sémantique de sécurité</li>
-          <li>Exploration assistée par la selection et l'appariement de visualisations</li>
-        </ul>
+        <h2>VIZSEC</h2>
+        <h3>Est. 2004</h3>
       </section>
+      <section><img src="images/NStreamAware.png"></section>
+      <section><img src="images/cynomix.png"></section>
       <section>
-        <h2 class="bullet">CORGI</h2><br>
-        <ul>
-          <li>Parse les logs</li>
-          <li>Fort héritage de <strong>ELVis</strong></li>
-          <li>Exploration of de multiples sources de données</li>
-          <li>Collecte de valeurs d'intérêt</li>
-          <li>Liaison de sources de données</li>
-        </ul>
+        <h6 class="bullet">Vis Sense</h6>
+        <h2>Analysis of Current Practices</h2>
+        <div class="docref"><img src="images/vis-sense-d1.png" class="thumb">
+          <ul class="meta">
+            <li>120 pages</li>
+            <li>333 références</li>
+            <li><a href="www.vis-sense.eu">www.vis-sense.eu</a></li>
+          </ul>
+        </div>
       </section>
       <section>
         <h1>MERCI</h1><br><a href="http://engleek.github.io/CESAR-2014/">http://engleek.github.io/CESAR-2014/</a>
